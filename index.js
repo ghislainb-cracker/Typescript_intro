@@ -8,3 +8,4 @@ var user1 = {
     name: "Ghislain Byimbo",
     email: "byimbog250@gmail.com"
 };
+printUser(user1);
