@@ -12,3 +12,9 @@
 // }
 
 // console.log(formatId(2));
+
+interface user {
+    id: number,
+    name: string,
+    email: string
+}
