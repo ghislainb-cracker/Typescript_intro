@@ -13,20 +13,20 @@
 
 // console.log(formatId(2));
 
-interface User {
-    id: number,
-    name: string,
-    email: string
-}
+// interface User {
+//     id: number,
+//     name: string,
+//     email: string
+// }
 
-function printUser(user: User){
-    console.log(`User ${user.id}: ${user.name} (${user.email})`);
-}
+// function printUser(user: User){
+//     console.log(`User ${user.id}: ${user.name} (${user.email})`);
+// }
 
-const user1: User = {
-    id: 2025,
-    name: "Ghislain Byimbo",
-    email: "byimbog250@gmail.com"
-}
+// const user1: User = {
+//     id: 2025,
+//     name: "Ghislain Byimbo",
+//     email: "byimbog250@gmail.com"
+// }
 
-printUser(user1);
+// printUser(user1);
