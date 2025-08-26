@@ -7,8 +7,8 @@
 
 // console.log(add(2,5));
 
-function formatId(want: number | string): string{
-    return want.toString();
-}
+// function formatId(want: number | string): string{
+//     return want.toString();
+// }
 
-console.log(formatId(2));
+// console.log(formatId(2));
