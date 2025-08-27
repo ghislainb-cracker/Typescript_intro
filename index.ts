@@ -30,3 +30,9 @@
 // }
 
 // printUser(user1);
+
+function wrapped<T>(value: T): T[]{
+    return [value];
+}
+
+console.log(wrapped("one"));
