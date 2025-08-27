@@ -36,3 +36,18 @@
 // }
 
 // console.log(wrapped("one"));
+
+
+type User = {
+  id: number;
+  name: string;
+  email: string;
+}
+
+type OptionalUser = Partial<User>
+
+function printUser(user: OptionalUser){
+    return user
+}
+
+printUser({name: "ghislain", email:"byimbog250@gmail.com"})
