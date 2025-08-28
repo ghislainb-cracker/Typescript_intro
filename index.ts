@@ -70,6 +70,7 @@ printUser({id: 1, name: "ghislain", email: "byimbog250@gmail.com"});
 function printLength(input: string | any[]): void{
   if(typeof input === 'string'){
     console.log(`string length: ${input.length}`);
+    return
   }
 
   console.log(`array length: ${input.length}`);

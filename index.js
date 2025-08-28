@@ -8,18 +8,20 @@ printUser({ name: "ghislain" });
 printUser({ email: "byimbog250@gmail.com" });
 printUser({ name: "ghislain", email: "byimbog250@gmail.com" });
 printUser({ id: 1, name: "ghislain", email: "byimbog250@gmail.com" });
-
-
+// function printLength(input: string | any[]): void{
+//   if(typeof input === 'string'){
+//     console.log(`string length: ${input.length}`);
+//   }else if(Array.isArray(input)){
+//     console.log(`Array length: ${input.length}`)
+//   }else{
+//     console.log("Invalid datatype")
+//   }
+// }
 function printLength(input) {
     if (typeof input === 'string') {
         console.log("string length: ".concat(input.length));
     }
-    else if (Array.isArray(input)) {
-        console.log("Array length: ".concat(input.length));
-    }
-    else {
-        console.log("Invalid datatype");
-    }
+    console.log("array length: ".concat(input.length));
 }
 printLength("ghislain");
 printLength([1, 2, 3, 4, 5]);
