@@ -20,6 +20,7 @@ printUser({ id: 1, name: "ghislain", email: "byimbog250@gmail.com" });
 function printLength(input) {
     if (typeof input === 'string') {
         console.log("string length: ".concat(input.length));
+        return;
     }
     console.log("array length: ".concat(input.length));
 }
