@@ -76,4 +76,4 @@ function printLength(input: string | any[]): void{
 }
 
 printLength("ghislain");
-printLength([1, 2, 3, 4, 5])
+printLength([1, 2, 3, 4, 5]);
