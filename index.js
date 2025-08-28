@@ -8,6 +8,8 @@ printUser({ name: "ghislain" });
 printUser({ email: "byimbog250@gmail.com" });
 printUser({ name: "ghislain", email: "byimbog250@gmail.com" });
 printUser({ id: 1, name: "ghislain", email: "byimbog250@gmail.com" });
+
+
 function printLength(input) {
     if (typeof input === 'string') {
         console.log("string length: ".concat(input.length));
