@@ -72,7 +72,7 @@ function printLength(input: string | any[]): void{
     console.log(`string length: ${input.length}`);
   }
 
-  console.log();
+  console.log(`array length: ${input.length}`);
 }
 
 printLength("ghislain");
